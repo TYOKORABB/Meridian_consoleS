@@ -1562,8 +1562,8 @@ def load_policy():
     global env_cfg,obs_cfg,env,policy
 
     # 学習済みポリシーのディレクトリ、名称、チェックポイント
-    log_dir = "../khr_rl_sample/logs/"
-    exp_name = "khr3hv"
+    log_dir = "../khr_rl_tora/logs/"
+    exp_name = "khr-quadruped4" #exp_name = "khr3hv"
     ckpt = 10000
    
     with open(log_dir+exp_name+"/cfgs.pkl","rb") as f:
